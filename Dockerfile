@@ -6,7 +6,7 @@ RUN curl -vL https://github.com/cppforlife/knctl/releases/download/`curl -s http
     chmod +x /usr/local/bin/knctl
     
 ### riff CLI ####
-RUN curl -vL https://github.com/projectriff/riff/releases/download/v0.1.1/riff-linux-amd64.tgz | tar zxvf - &&\
+RUN curl -vL https://github.com/projectriff/riff/releases/download/v0.1.3/riff-linux-amd64.tgz | tar zxvf - &&\
     cp ./riff /usr/local/bin/ &&\
     rm ./riff
 
